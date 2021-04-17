@@ -33,7 +33,7 @@ function draw(){
 async function getBackgroundImg(){
 
     // write code to fetch time from API
-    var response = await fetch("http://worldtimeapi.org/api/timezone/America/Los_Angeles");
+    var response = await fetch("https://worldtimeapi.org/api/timezone/America/Los_Angeles");
     var responseJSON = await response.json();    
     // write code slice the datetime
     var datetime = responseJSON.datetime;
