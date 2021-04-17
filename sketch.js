@@ -64,7 +64,7 @@ async function getBackgroundImg(){
     } else{
         bg = "sunset12.png";
     }
-    
+     
     //load the image in backgroundImg variable here
     backgroundImg = loadImage(bg);
 }
